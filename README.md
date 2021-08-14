@@ -8,13 +8,9 @@ The main objective of this project is to deploy a high-availability web applicat
 
 The scripts in this codebase can be categorised into two categories:
 
-* network layer: script to setup the networking layer of the application. This can be found in the file named `udagram_infrastructure.yml`. In addition, parameters used in the setup the network layer can be found in `udagram_infrastructure-parameters.json`
+* network layer: script to setup the networking layer of the application. This can be found in the file named `udagram_infrastructure.yml`. In addition, parameters used in the setup the network layer can be found in `udagram_infrastructure-parameters.json`. You can also find the visual representation of this architecture inside `architecture-diagram` folder
 
 * application layer: scripts to setup the necessay ec2 instances, install application dependencies, autoscaling groups, loadbalancers and security groups. The file that contains the above script is named `udagram_servers.yml` and while the file that contains the parameters used is named `udagram-servers-params.json`.
 
-
-## Access the web application
-
-The web application can be accessed using this url: http://udagr-WebAp-JUI0KFIM4MEJ-308737016.us-east-1.elb.amazonaws.com
 
 
